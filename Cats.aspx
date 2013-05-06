@@ -1,8 +1,7 @@
 ﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="Cats.aspx.vb" Inherits="Cats" %>
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 <head runat="server">
     <title></title>
     <link href="Styles/Catscss.css" rel="stylesheet" type="text/css" />
@@ -10,9 +9,20 @@
 <body>
     <form id="form1" runat="server">
 
-
-<section class="tabs">
-	
+<header id="menu">
+    	<h2>The Cat App</h2>
+        <nav>
+		<ul>
+        	<li><a href="cats.html" title="Cat info page">Cats</a></li>
+            <li><a href="gallery.html" title="gallery page">Gallery</a></li>
+            <li><a href="quiz.html" title="test your knowledge with our quiz">Quiz</a></li>
+            <li><a href="#" title="dress up game ">Dress Up Game</a></li>
+		</ul>
+	</nav>
+    </header>
+	<div id="content">
+	<section class="main">
+	<section class="tabs">
 	            <input id="tab-1" type="radio" name="radio-set" class="tab-selector-1" checked="checked" />
 		        <label for="tab-1" class="tab-label-1">Alice</label>
 		
@@ -1332,15 +1342,13 @@
 				    </div>
 		        </div>
 			</section>
-
-
-
-
-
-</div>
-
-<!--END GALLERY-->
-    </div>
+            </section>
+           </div><!--end of content-->
+           <script src="Scripts/ajax.js" type="text/javascript"></script>
+            
+<footer>
+cats
+</footer>
     </form>
 </body>
 </html>

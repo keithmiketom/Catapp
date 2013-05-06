@@ -5,32 +5,10 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Welcome to the Cat App!</title>
-<link href="Styles/style2.css" rel="stylesheet" type="text/css" />
-<link href="Styles/alertify.core.css" rel="stylesheet" />
-<link href="Styles/alertify.default.css" rel="stylesheet" />
+<link href="Styles/Catscss.css" rel="stylesheet" type="text/css" />
+
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js"></script>
-<script type="text/javascript" src="Scripts/jquery.parallax-1.1.3.js"></script>
-<script type="text/javascript" src="Scripts/alertify.min.js"></script>
-<script type="text/javascript" src="Scripts/jquery.localscroll-1.2.7-min.js"></script>
-<script type="text/javascript" src="Scripts/jquery.scrollTo-1.4.2-min.js"></script>
-<script type="text/javascript" src="Scripts/fruitmachine.js"></script>
-<script type="text/javascript">
-    $(document).ready(function () {
-        $('#nav').localScroll(800);
 
-        //.parallax(xPosition, speedFactor, outerHeight) options:
-        //xPosition - Horizontal position of the element
-        //inertia - speed to move relative to vertical scroll. Example: 0.1 is one tenth the speed of scrolling, 2 is twice the speed of scrolling
-        //outerHeight (true/false) - Whether or not jQuery should use it's outerHeight option to determine when a section is in the viewport
-        $('#intro').parallax("50%", 0.1);
-        $('#second').parallax("50%", 0.1);
-        $('.bg').parallax("50%", 0.4);
-        $('.bg2').parallax("50%", 0.2);
-        $('#third').parallax("50%", 0.3);
-        $('#sixth').parallax("50%", 0.1);
-
-    })
-</script>
 </head>
 
 <body id="index">
@@ -109,6 +87,28 @@
 	    </div> <!--.story-->
           <p class="links"><a href="cats.aspx" alt="cats link" class="entre">Enter Site</a></p>
 	</div> <!--#fifth-->
+<script type="text/javascript" src="Scripts/jquery.parallax-1.1.3.js"></script>
+<script type="text/javascript" src="Scripts/alertify.min.js"></script>
+<script type="text/javascript" src="Scripts/jquery.localscroll-1.2.7-min.js"></script>
+<script type="text/javascript" src="Scripts/jquery.scrollTo-1.4.2-min.js"></script>
+<script type="text/javascript" src="Scripts/fruitmachine.js"></script>
+<script type="text/javascript">
+    $(document).ready(function () {
+        $('#nav').localScroll(800);
+
+        //.parallax(xPosition, speedFactor, outerHeight) options:
+        //xPosition - Horizontal position of the element
+        //inertia - speed to move relative to vertical scroll. Example: 0.1 is one tenth the speed of scrolling, 2 is twice the speed of scrolling
+        //outerHeight (true/false) - Whether or not jQuery should use it's outerHeight option to determine when a section is in the viewport
+        $('#intro').parallax("50%", 0.1);
+        $('#second').parallax("50%", 0.1);
+        $('.bg').parallax("50%", 0.4);
+        $('.bg2').parallax("50%", 0.2);
+        $('#third').parallax("50%", 0.3);
+        $('#sixth').parallax("50%", 0.1);
+
+    })
+</script>
   
 </body>
 </html>

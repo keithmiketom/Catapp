@@ -1,13 +1,10 @@
 ﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="Cat gallery.aspx.vb" Inherits="Cat_gallery" %>
 
 <!DOCTYPE html>
+<html>
 <head>
-        <title>Rotating Image Slider with jQuery & CSS3</title>
-		<meta charset="UTF-8" />
-        <meta name="description" content="Rotating Image Slider with jQuery & CSS3" />
-        <meta name="keywords" content="jquery, rotation, slider, images, slideshow, autoplay, play, pause, css3"/>
-		<meta name="author" content="Codrops" />
-        <link rel="stylesheet" type="text/css" href="Styles/gallery.css" />
+        <title>Cat Gallery</title>
+        <link rel="stylesheet" type="text/css" href="Styles/Catscss.css" />
 		<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css' />
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
 		<script type="text/javascript" src="Scripts/jquery.transform-0.9.3.min_.js"></script>
