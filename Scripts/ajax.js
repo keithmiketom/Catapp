@@ -67,3 +67,4 @@ $("#menu a").on("click", function (e) {
         $.get(url, ajax_loaded);
     }
 });*/
+

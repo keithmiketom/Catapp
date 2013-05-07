@@ -11,8 +11,8 @@
 		<script type="text/javascript" src="Scripts/jquery.mousewheel.js"></script>
 		<script type="text/javascript" src="Scripts/jquery.RotateImageMenu.js"></script>
     </head>
-    <body id="gallery">
-		<div class="content">
+    <body class="gallery">
+		<div id="gallery" class="content">
 			<h1>Cat Gallery!</h1>
 			<div class="rm_wrapper">
 				<div id="rm_container" class="rm_container">

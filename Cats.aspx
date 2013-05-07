@@ -20,6 +20,7 @@
 		</ul>
 	</nav>
     </header>
+    <div id="cats">
 	<div id="content">
 	<section class="main">
 	<section class="tabs">
@@ -1343,8 +1344,9 @@
 		        </div>
 			</section>
             </section>
-           </div><!--end of content-->
+           </div><!--end of content--></div>
            <script src="Scripts/ajax.js" type="text/javascript"></script>
+           
             
 <footer>
 cats

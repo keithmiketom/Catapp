@@ -192,15 +192,15 @@ body#index{
 /* **************************************************************************
 2.1								Fruit machine 
 ********************************************************************************/
-img.lever{
+#index img.lever{
 	border: none;
 }
 
-img.fm{
+#index img.fm{
 	border: 3px solid #868788;
 }
 
-#pageWrapper
+#index #pageWrapper
 {
     z-index:1;
 	width: 700px;
@@ -217,7 +217,7 @@ img.fm{
 }
 
 
-#mastHead{
+#index #mastHead{
 	height: 200px;
 	margin-top: 50px;
 	margin-right: auto;
@@ -226,7 +226,7 @@ img.fm{
 	background-position:  center top;
 	background-repeat: no-repeat;
 }
-#rollers{
+#index #rollers{
 
 	margin: 0 auto;
 	background-color: transparent;
@@ -234,20 +234,20 @@ img.fm{
 }
 
 
-#rollers img{
+#index #rollers img{
 border-radius:40px;
   -moz-border-radius: 40px;
     -webkit-border-radius: 40px;
     -ms-border-radius: 40px;
     -o-border-radius: 40px;}
 
-#lever{
+#index #lever{
 	margin-top: 100px;
 	text-align: center;
 	cursor: pointer;
 }
 
-.links{
+#index .links{
 	margin-left:30px;
 	margin-bottom:-30px;}
 
@@ -258,35 +258,32 @@ border-radius:40px;
 3.					Cats landing Trvia Page
 *******************************************************************************/
 
-@import url('normalize.css');
-/*@import url('foundation.min.css');*/
-@import url('alertify.core.css');
-header, footer{
+#cats header,#cats  footer{
 	width:100%;
 	background-color:hsla(330, 80%, 70%, 0.8);
 	background-image:url(../images/haedandfoot.png);
 	height:200px;
 	}
-footer{
+#cats footer{
 	margin-bottom:-30px;
 	border-top:10px solid hsla(340, 50%, 50%, 1.0);}
-header{
+#cats header{
 	border-bottom:10px solid hsla(340, 50%, 50%, 1.0);
 	margin:-30px auto;}
 	
-header>h2{
+#cats header>h2{
 	font-family: sans-serif;
 	font-size:2em;
 	padding:30px;
 	float:left;}
-nav {
+#cats nav {
 	float:right;
 	margin:10px auto;}
 	
-nav ul{
+#cats nav ul{
 	list-style:none;
 	}
-nav li{
+#cats nav li{
 	float:left;
 	padding:20px;
 	background-color:hsla(280, 80%, 60%, 0.9);
@@ -297,18 +294,18 @@ nav li{
 	text-align:center;
 	font-family:sans-serif;
 	}
-nav li a{
+#cats nav li a{
 	text-decoration:none;
 	color:white;}
-nav li:hover{
+#cats nav li:hover{
 	border-top-left-radius:30px;
 	border-bottom-right-radius:30px;}
-nav li a:hover{
+#cats nav li a:hover{
 	text-decoration:underline;
 	}
 
 
-body{
+#cats body{
 	font-family: 'Open Sans Condensed','Arial Narrow', serif;
 	background: #ddd url(../images/bg.jpg) repeat top left;
 	font-weight: 400;
@@ -318,7 +315,7 @@ body{
 	-moz-font-smoothing: antialiased;
 	font-smoothing: antialiased;}
 	
-.content img{
+#cats .content img{
 	border-radius:8px;
 	  -moz-border-radius: 8px;
     -webkit-border-radius: 8px;
@@ -327,13 +324,13 @@ body{
 	float:left;
 	}
 
-.tabs {
+#cats .tabs {
     position: relative;
 	margin: 40px auto;
 	width: 1050px;
 }
 
-.tabs input {
+#cats .tabs input {
 	position: absolute;
 	z-index: 1000;
 	width: 80px;
@@ -346,7 +343,7 @@ body{
 	cursor:pointer;
 }
 
-.tabs label {
+#cats .tabs label {
 	background: #69F;
 	background: -moz-linear-gradient(top, #69F 0%, #007 100%);
 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#69F), color-stop(100%,#007));
@@ -376,7 +373,7 @@ body{
     box-shadow: 2px 0 2px rgba(0,0,0,0.1), -2px 0 2px rgba(0,0,0,0.1);
 }
 
-.tabs label:after {
+#cats .tabs label:after {
     content: '';
 	background: #fff;
 	position: absolute;
@@ -387,28 +384,28 @@ body{
 	display: block;
 }
 
-.tabs input:hover + label {
+#cats .tabs input:hover + label {
 	background: #69F;
 }
 
-.tabs label:first-of-type {
+#cats .tabs label:first-of-type {
     z-index: 10;
     box-shadow: 2px 0 2px rgba(0,0,0,0.1);
 }
-.tab-label-1 {
+#cats .tab-label-1 {
     z-index: 8;}
-.tab-label-2 {
+#cats .tab-label-2 {
     z-index: 7;
 }
 
-.tab-label-3 {
+#cats .tab-label-3 {
     z-index: 6;
 }
 
-.tab-label-4 {
+#cats .tab-label-4 {
     z-index: 5;
 }
-.tab-label-5 {
+#cats .tab-label-5 {
     z-index: 4;
 }
 
@@ -416,23 +413,23 @@ body{
     z-index: 3;
 }
 
-.tab-label-7 {
+#cats .tab-label-7 {
     z-index: 2;
 }
-.tab-label-8 {
+#cats .tab-label-8 {
     z-index: 1;
 }
 
-.tabs input:checked + label {
+#cats .tabs input:checked + label {
     background:#69F;
 	z-index: 10;
 }
 
-.clear-shadow {
+#cats .clear-shadow {
 	clear: both;
 }
 
-.content {
+#cats .content {
     background: #fff;
 	position: relative;
     width: 100%;
@@ -442,7 +439,7 @@ body{
     border-radius: 0 8px 8px 8px;
 }
 
-.content div {
+#cats .content div {
     position: absolute;
 	top: 0;
 	left: 0;
@@ -457,14 +454,14 @@ body{
     transition: opacity linear 0.1s;
 }
 
-.tabs input.tab-selector-1:checked ~ .content .content-1,
-.tabs input.tab-selector-2:checked ~ .content .content-2,
-.tabs input.tab-selector-3:checked ~ .content .content-3,
-.tabs input.tab-selector-4:checked ~ .content .content-4,
-.tabs input.tab-selector-5:checked ~ .content .content-5,
-.tabs input.tab-selector-6:checked ~ .content .content-6,
-.tabs input.tab-selector-7:checked ~ .content .content-7,
-.tabs input.tab-selector-8:checked ~ .content .content-8{
+#cats .tabs input.tab-selector-1:checked ~ .content .content-1,
+#cats .tabs input.tab-selector-2:checked ~ .content .content-2,
+#cats .tabs input.tab-selector-3:checked ~ .content .content-3,
+#cats .tabs input.tab-selector-4:checked ~ .content .content-4,
+#cats .tabs input.tab-selector-5:checked ~ .content .content-5,
+#cats .tabs input.tab-selector-6:checked ~ .content .content-6,
+#cats .tabs input.tab-selector-7:checked ~ .content .content-7,
+#cats .tabs input.tab-selector-8:checked ~ .content .content-8{
 	z-index: 100;
     -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
     filter: alpha(opacity=100);
@@ -476,11 +473,11 @@ body{
     -ms-transition: opacity ease-out 0.2s 0.1s;
     transition: opacity ease-out 0.2s 0.1s;
 }
-.content div h2,
-.content div h3{
+#cats .content div h2,
+#cats .content div h3{
 	color: #69F;
 }
-.content div p {
+#cats .content div p {
 	font-size: 1.0em;
 	line-height: 1.8em;
 	text-align: left;
@@ -491,19 +488,19 @@ body{
 	border-left: 8px solid rgba(0,15,105, 0.2);
 }
 
-.defs{
+#cats .defs{
 	float:left;
 	list-style:none;
 	font-size:1.6em;
 	}
-.content h3, .content p{
+#cats .content h3,#cats  .content p{
 	clear:both;}
 	
 /*******************************************************************************
 4.					Gallery Page
 *******************************************************************************/
 
-body#gallery{
+body.gallery{
 	background:#f0f0f0;
 	background-image:url(../images/lvucits.png);
 	color:#000;
@@ -523,19 +520,19 @@ body#gallery{
 	color:#333;
 	background:transparent url(../images/line.png) repeat-x bottom left;
 }
-.rm_wrapper{
+#gallery .rm_wrapper{
 	width:1160px;
 	margin:0 auto;
 	position:relative;
 }
-.rm_container{
+#gallery .rm_container{
 	width:1050px;
 	overflow:hidden;
 	position:relative;
 	height:530px;
 	margin:0 auto;
 }
-.rm_container h2{
+#gallery .rm_container h2{
 	background:transparent url(../images/lines.png) repeat top left;
 	padding:10px 30px;
 	position:absolute;
@@ -546,10 +543,10 @@ body#gallery{
 	text-transform:uppercase;
 	text-shadow:1px 0px 1px #fff;
 }
-.rm_container ul{
+#gallery .rm_container ul{
 	width:1170px;
 }
-.rm_container ul li{
+#gallery .rm_container ul li{
 	float:left;
 	margin-left:-80px;
 	position:relative;
@@ -560,12 +557,12 @@ body#gallery{
 	border-width:50px 30px 0px 30px;
 	background-color:#f0f0f0;
 }
-.rm_container ul li img{
+#gallery .rm_container ul li img{
 	position:absolute;
 	top:0px;
 	left:0px;
 }
-.rm_mask_right, .rm_mask_left{
+#gallery .rm_mask_right, .rm_mask_left{
 	position: absolute;
 	height: 110px;
 	background: #f0f0f0;
@@ -576,14 +573,14 @@ body#gallery{
 	-webkit-transform:rotate(-3deg);
 	transform:rotate(-3deg);
 }
-.rm_mask_right{
+#gallery .rm_mask_right{
 	left:auto;
 	right:0px;
 	-moz-transform:rotate(3deg);
 	-webkit-transform:rotate(3deg);
 	transform:rotate(3deg);
 }
-.rm_corner_right, .rm_corner_left{
+#gallery .rm_corner_right, .rm_corner_left{
 	background: #f0f0f0;
 	position:absolute;
 	width:200px;
@@ -594,14 +591,14 @@ body#gallery{
 	-webkit-transform:rotate(45deg);
 	transform:rotate(45deg);
 }
-.rm_corner_right{
+#gallery .rm_corner_right{
 	left:auto;
 	right:-65px;
 	-moz-transform:rotate(-45deg);
 	-webkit-transform:rotate(-45deg);
 	transform:rotate(-45deg);
 }
-.rm_nav a{
+#gallery .rm_nav a{
 	position:absolute;
 	top:200px;
 	width:38px;
@@ -609,24 +606,24 @@ body#gallery{
 	cursor:pointer;
 	opacity:0.7;
 }
-.rm_nav a:hover{
+#gallery .rm_nav a:hover{
 	opacity:1.0;
 }
-.rm_nav a.rm_next{
+#gallery .rm_nav a.rm_next{
 	background:transparent url(../images/next.png) no-repeat top left;
 	right:0px;
 }
-.rm_nav a.rm_prev{
+#gallery .rm_nav a.rm_prev{
 	background:transparent url(../images/prev.png) no-repeat top left;
 	left:0px;
 }
-.rm_controls{
+#gallery .rm_controls{
 	position:absolute;
 	top:0px;
 	left:-40px;
 	height:20px;
 }
-.rm_controls a{
+#gallery .rm_controls a{
 	cursor:pointer;
 	opacity:0.7;
 	padding-left:24px;
@@ -636,14 +633,14 @@ body#gallery{
 	float:left;
 	line-height:20px;
 }
-.rm_controls a:hover{
+#gallery .rm_controls a:hover{
 	opacity:1.0;
 }
-.rm_controls a.rm_play{
+#gallery .rm_controls a.rm_play{
 	display:none;
 	background:transparent url(../images/play.png) no-repeat center left;
 }
-.rm_controls a.rm_pause{
+#gallery .rm_controls a.rm_pause{
 	background:transparent url(../images/pause.png) no-repeat center left;
 }
 
@@ -652,19 +649,19 @@ body#gallery{
 5.					Quiz Styling
 *******************************************************************************/
 	
-h1{
+#quiz h1{
     color:red;
     font-family:sketchetik;
     font-size:5em;
 }
-div{
+#quiz div{
     font-family:sans-serif;
 }
-ul{
+#quiz ul{
     list-style:none;
     font-family:sans-serif;
 }
-li {
+#quiz li {
     border:1px solid magenta;
     width:200px;
     cursor:pointer;
@@ -679,7 +676,7 @@ li {
     -o-border-radius: 10px;
 }
 
-li:hover{
+#quiz li:hover{
     border:1px solid yellow;
     background-color:magenta;
     color:white;
@@ -690,7 +687,7 @@ li:hover{
     -o-border-radius: 10px;
 }
 
-#question{
+#quiz #question{
 	width:300px;
 	margin:-100px 0 0;
 	background-color:#36F;
@@ -705,7 +702,7 @@ li:hover{
 	color:white;
 	}
 
-#score {
+#quiz #score {
     padding:30px;
 	margin:-100px 0 0;
     background-color:#36F;
@@ -722,7 +719,7 @@ li:hover{
     text-align:right;
 }
 
-#countdown{
+#quiz #countdown{
     position:relative;
     top:-160px;
     right:-630px;
@@ -741,7 +738,7 @@ li:hover{
     -o-border-radius: 20px;
 }
 
-div.quiz{
+#quiz div.quiz{
     width:750px;
 	min-height:500px;
 	padding:20px;
