@@ -35,18 +35,75 @@
 	    	<div class="float-right">
 	            <h2>Some People Call him Maurice</h2>
 	            <p>He loves Wool</p><br /><br /><br />
-	            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nibh erat, sagittis sit amet congue at, aliquam eu libero. Integer molestie, turpis vel ultrices facilisis, nisi mauris sollicitudin mauris, volutpat elementum enim urna eget odio. Donec egestas aliquet facilisis. Nunc eu nunc eget neque ornare fringilla. Nam vel sodales lectus. Nulla in pellentesque eros. Donec ultricies, enim vitae varius cursus, risus mauris iaculis neque, euismod sollicitudin metus erat vitae sapien. Sed pulvinar.</p>
+	            <p>Maurice has an idea for a new e-commerce web application. What is it about, Maurice? "Wool." So... a clothing store? Argyle sweaters? "No, Just wool" Maurice replies as his fat sweaty ass rests on your hand. He leans in closer and you can smell a ploughmans sandwich on his breath. He grips his reusable Aldi bag tighter and wheezes. "Just wool." </p>
+                <p>He has a litter of 10 kittens, all named after types of wool, thought they probably came from the milkman.</p>
 	        </div>
 	    </div> <!--.story-->
 
 	</div> <!--#second-->
 	<div id="sixth">
 		<div class="story"><div class="bg"></div>
-	    	<div class="float-right">
-	            <h2>Multiple Backgrounds</h2>
-	            <p>The multiple backgrounds applied to this section are moved in a similar way to the first section -- every time the user scrolls down the page by a pixel, the positions of the backgrounds are changed.</p>
-	            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nibh erat, sagittis sit amet congue at, aliquam eu libero. Integer molestie, turpis vel ultrices facilisis, nisi mauris sollicitudin mauris, volutpat elementum enim urna eget odio. Donec egestas aliquet facilisis. Nunc eu nunc eget neque ornare fringilla. Nam vel sodales lectus. Nulla in pellentesque eros. Donec ultricies, enim vitae varius cursus, risus mauris iaculis neque, euismod sollicitudin metus erat vitae sapien. Sed pulvinar.</p>
-	        </div>
+	    	
+	            <h2>&lt;3</h2>
+	            <div id="gallery" class="content">
+			<h1>Cat Gallery!</h1>
+			<div class="rm_wrapper">
+				<div id="rm_container" class="rm_container">
+					<ul>
+						<li data-images="rm_container_1" data-rotation="-15"><img src="images/1.jpg"/></li>
+						<li data-images="rm_container_2" data-rotation="-5"><img src="images/2.jpg"/></li>
+						<li data-images="rm_container_3" data-rotation="5"><img src="images/3.jpg"/></li>
+						<li data-images="rm_container_4" data-rotation="15"><img src="images/4.jpg"/></li>
+					</ul>
+					<div id="rm_mask_left" class="rm_mask_left"></div>
+					<div id="rm_mask_right" class="rm_mask_right"></div>
+					<div id="rm_corner_left" class="rm_corner_left"></div>
+					<div id="rm_corner_right" class="rm_corner_right"></div>
+					<h2>NCI HDSWTECH Cats</h2>
+					<div style="display:none;">
+						<div id="rm_container_1">
+							<img src="images/1.jpg"/>
+							<img src="images/5.jpg"/>
+							<img src="images/1.jpg"/>
+							<img src="images/5.jpg"/>
+						</div>
+						<div id="rm_container_2">
+							<img src="images/2.jpg"/>
+							<img src="images/6.jpg"/>
+							<img src="images/2.jpg"/>
+							<img src="images/6.jpg"/>
+						</div>
+						<div id="rm_container_3">
+							<img src="images/3.jpg"/>
+							<img src="images/7.jpg"/>
+							<img src="images/3.jpg"/>
+							<img src="images/7.jpg"/>
+						</div>
+						<div id="rm_container_4">
+							<img src="images/4.jpg"/>
+							<img src="images/8.jpg"/>
+							<img src="images/4.jpg"/>
+							<img src="images/8.jpg"/>
+						</div>
+					</div>
+				</div>
+				<div class="rm_nav">
+					<a id="rm_next" href="#" class="rm_next"></a>
+					<a id="rm_prev" href="#" class="rm_prev"></a>
+				</div>
+				<div class="rm_controls">
+					<a id="rm_play" href="#" class="rm_play">Play</a>
+					<a id="rm_pause" href="#" class="rm_pause">Pause</a>
+				</div>
+			</div>
+		</div>
+		   
+
+
+
+
+
+	       
 	    </div> <!--.story-->
 
 	</div> <!--#second-->
@@ -85,7 +142,7 @@
             </div>
 	        <!--roulette thing here -->
 	    </div> <!--.story-->
-          <p class="links"><a href="cats.aspx" alt="cats link" class="entre">Enter Site</a></p>
+          <span class="links"><a href="cats.aspx" alt="cats link" class="entre">Enter Site</a></span>
 	</div> <!--#fifth-->
 <script type="text/javascript" src="Scripts/jquery.parallax-1.1.3.js"></script>
 <script type="text/javascript" src="Scripts/alertify.min.js"></script>
@@ -109,6 +166,10 @@
 
     })
 </script>
+
+		<script type="text/javascript" src="Scripts/jquery.transform-0.9.3.min_.js"></script>
+		
+	<script type="text/javascript" src="Scripts/jquery.RotateImageMenu.js"></script>
   
 </body>
 </html>

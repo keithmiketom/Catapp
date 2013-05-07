@@ -2,16 +2,6 @@ var display_content = function(response){
   $("#content").html(response);
 
   $("#content a").on("click", monitor_links);
-  $("#content form").on("submit", monitor_form)
-}
-
-var monitor_form = function(e){
-    var output_error = function(msg){
-        alert(msg);
-        return false;
-
-    }
-
 
 }
 

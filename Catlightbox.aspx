@@ -1,56 +1,40 @@
 ﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="Catlightbox.aspx.vb" Inherits="Catlightbox" %>
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title></title>
-
-    <link href="style2.css" rel="stylesheet" type="text/css" />
-
-
-</head>
-<body>
 <div id="lightgal">
-    <form id="form1" runat="server">
+  
      <section>
 				<ul class="lb-album">
 					<li>
-           
-                  
-
-
-						<a href="#image-1">
-							<img src="img/8.gif" alt="image01">
-							<span>Alice!</span>
+           				<a href="#image-1">
+							<img src="images/8.gif" alt="image01">
+							<span>Alice</span>
 						</a>
 						<div class="lb-overlay" id="image-1">
 							<a href="#page" class="lb-close">x Close</a>
-							<img src="img/8.jpg" alt="image01" />
+							<img src="images/8.jpg" alt="image01" />
 							<div>
                             
-								<h3>Rank 1 <span>/point/</h3></span>
+								<h3>Alice</h3>
 						</a>
-								<p>Alice is a lovely Ginger cat </p>
+								<p>Alice is the innocent one, her pure soul has not yet been corrupted by the others. Alice has hazel eyes and enjoys lobster sushi.</p>
 							</div>
 							
 						</div>
 					</li>
 					<li>
 						<a href="#image-2">
-							<img src="img/2.gif" alt="image02">
-							<span>Rocket!</span>
+							<img src="images/2.gif" alt="image02">
+							<span>Smoked Cod</span>
 						</a>
 						
                   
                    
                         
                         <div class="lb-overlay" id="image-2">
-							<img src="img/2.jpg" alt="image02" />
+							<img src="images/2.jpg" alt="image02" />
 							<div>							
-								<h3>Rank 2 <span>/ˌpôr də ˈbrä/</span></h3>
-								<p>Rocket to Russia is the third studio album by the American punk rock band The Ramones
-			   It was released on November 4, 1977 through Sire Records </p>
+								<h3>Smoked Cod<span></span></h3>
+								<p>A disgusting cat with no friends. He conceals a rotting smoked cod between his folds which lends him a distinctive odor. Also operates under the pseudonym Paulo Fischoder.</p>
 							</div>
 							<a href="#page" class="lb-close">x Close</a>
 						</div>
@@ -58,99 +42,99 @@
 					<li>
 						
                         <a href="#image-3">
-							<img src="img/3.gif " alt="image03">
-							<span>Get out!</span>
+							<img src="images/3.gif " alt="image03">
+							<span>Wigget</span>
 						</a>
 						<div class="lb-overlay" id="image-3">
-                   <
-							<img src=" img/3.jpg " alt="image03" />
+              
+							<img src=" images/3.jpg " alt="image03" />
 							<div>							
-								<h3>pli·é <span>/plēˈā/</span></h3>
-								<p>Leave home was</p>
+								<h3>Wigget<span></span></h3>
+								<p>Wigget Sans-Shereef. Notorious for his mispronounciation of words such as widget, ajax and sans serif - words he read in a book once, somewhere. He continues to teach web development despite the fact that his bachelors is in Agricultural Science. Claims to suffer from chronic back pain from an obsessive amount of texting and playing candy crush saga and checking hope ur ok hun xxx, which he does not get, however this is merely a cover for his unwillingness to teach.</p>
 							</div>
 							<a href="#page" class="lb-close">x Close</a>
 						</div>
 					</li>
 					<li>
 						<a href="#image-4">
-							<img src="img/1.gif" alt="image04">
-							<span>Adagio</span>
+							<img src="images/1.gif" alt="image04">
+							<span>Dave Cat</span>
 						</a>
 						<div class="lb-overlay" id="image-4">
-						<img src="img/1.jpg" alt="image04" />
+						<img src="images/1.jpg" alt="image04" />
 							<div>
                        
 							<div>							
-								<h3>a·da·gio <span>/əˈdäjō/</span></h3>
-								<p>Road to ruin was </p>
+								<h3>Dave Cat<span></span></h3>
+								<p>A lovely ginger cat</p>
 							</div>
 							<a href="#page" class="lb-close">x Close</a>
 						</div>
 					</li>
 					<li>
 						<a href="#image-5">
-							<img src="img/4.gif" alt="image05">
+							<img src="images/4.gif" alt="image05">
 
-							<span>2 Tough Bitch!</span>
+							<span>Wispy</span>
 						</a>
 						<div class="lb-overlay" id="image-5">
-							<img src="img/4.jpg" alt="image05" />
+							<img src="images/4.jpg" alt="image05" />
 							<div>							
-								<h3>frap·pé<span>/fraˈpā/</span></h3>
-								<p>Too tough was </p>
+								<h3>Wispy<span></span></h3>
+								<p>A tall, balding cat who enjoys making formal complaints about the others. Wispy is the oldest cat. He attempts to hide his wispyness beneath a flamboyant toupee.</p>
 							</div>
 							<a href="#page" class="lb-close">x Close</a>
 						</div>
 					</li>
 					<li>
 						<a href="#image-6">
-							<img src="img/5.gif" alt="image06">
-							<span>The End Of the Century</span>
+							<img src="images/5.gif" alt="image06">
+							<span>Maurice</span>
 						</a>
 						<div class="lb-overlay" id="image-6">
-							<img src="img/5.jpg" alt="image06" />
+							<img src="images/5.jpg" alt="image06" />
 							<div>							
 								
                                 
                                 
                                 
                                 
-                                <h3>glis·sade <span>/gliˈsäd/</span></h3>
-								<p>One leg is brushed outward from the body, which then takes the weight while the second leg is brushed in to meet it</p>
+                                <h3>Maurice<span></span></h3>
+								<p>Maurice has an idea for a new e-commerce web application. What is it about, Maurice? "Wool." So... a clothing store? Argyle sweaters? "No, Just wool" Maurice replies as his fat sweaty ass rests on your hand. He leans in closer and you can smell a ploughmans sandwich on his breath. He grips his reusable Aldi bag tighter and wheezes. "Just wool." </p>
 							</div>
 							<a href="#page" class="lb-close">x Close</a>
 						</div>
 					</li>
 					<li>
 						<a href="#image-7">
-							<img src="img/7.gif" alt="image07">
-                                   <span>Pleasent Times</span>
+							<img src="images/7.gif" alt="image07">
+                                   <span>Sandra Cat</span>
 						</a>
 						<div class="lb-overlay" id="image-7">
-							<img src="img/7.jpg" alt="image07" />
+							<img src="images/7.jpg" alt="image07" />
 							<div>							
 								
                                 
-                                <h3>je·té <span>/zhə-ˈtā/</span></h3>
-								<p>A springing jump made from one foot to the other in any direction</p>
+                                <h3>Sandra Cat<span></span></h3>
+								<p>Sandra is the most beautiful of all the cats. She has a penchant for married men, ensnaring them with her dark beauty and stealing their souls. Sandra's piercing blue eyes hypnotize her target. Her lifestyle has been compared to the 1995 science-fiction movie Species. She relishes in misbedaving!</p>
 							</div>
 							<a href="#page" class="lb-close">x Close</a>
 						</div>
 					</li>
 					<li>
 						<a href="#image-8">
-							<img src="img/6.gif" alt="image08">
-							<span>Animal</span>
+							<img src="images/6.gif" alt="image08">
+							<span>Mr Fluffy</span>
 						</a>
 						<div class="lb-overlay" id="image-8">
-							<img src="img/6.jpg" alt="image08" />
+							<img src="images/6.jpg" alt="image08" />
 
 							<div>	
 
 
                             						
-								<h3>pi·qué <span>/pēˈkā/</span></h3>
-								<p>Strongly pointed toe of the lifted and extended leg sharply lowers to hit the floor then immediately rebounds upward</p>
+								<h3>Mr Fluffy<span>/pēˈkā/</span></h3>
+								<p>Fluffy est un chat francais.  Il est le plus choux de tout les chats.  Il n'est pas homo il est tout simplement europeen!  Il n'aime pas les chats stupides mais ce ne le fache pas parceque Fluffy est un chat tres calme aussi.  C'est un descendant des roix chats de versailles</p>
 							</div>
 							<a href="#page" class="lb-close">x Close</a>
 						</div>
@@ -163,8 +147,5 @@
     
     
     
-    
-    </form>
-    </div
-</body>
-</html>
+ </div>
+

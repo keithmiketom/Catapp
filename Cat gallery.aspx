@@ -1,17 +1,6 @@
 ﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="Cat gallery.aspx.vb" Inherits="Cat_gallery" %>
-
-<!DOCTYPE html>
-<html>
-<head>
-        <title>Cat Gallery</title>
-        <link rel="stylesheet" type="text/css" href="Styles/Catscss.css" />
-		<link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css' />
-        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
-		<script type="text/javascript" src="Scripts/jquery.transform-0.9.3.min_.js"></script>
-		<script type="text/javascript" src="Scripts/jquery.mousewheel.js"></script>
-		<script type="text/javascript" src="Scripts/jquery.RotateImageMenu.js"></script>
-    </head>
-    <body class="gallery">
+<link href="Styles/Catscss.css" rel="stylesheet" type="text/css" />
+<div id="content">
 		<div id="gallery" class="content">
 			<h1>Cat Gallery!</h1>
 			<div class="rm_wrapper">
@@ -64,7 +53,8 @@
 				</div>
 			</div>
 		</div>
-		
-		
-    </body>
-</html>
+        </div>
+		   <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+		<script type="text/javascript" src="Scripts/jquery.transform-0.9.3.min_.js"></script>
+	
+	<script type="text/javascript" src="Scripts/jquery.RotateImageMenu.js"></script>

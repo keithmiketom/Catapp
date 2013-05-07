@@ -5,18 +5,20 @@
 <head runat="server">
     <title></title>
     <link href="Styles/Catscss.css" rel="stylesheet" type="text/css" />
+    <link href='http://fonts.googleapis.com/css?family=PT+Sans+Narrow' rel='stylesheet' type='text/css' />
+        
 </head>
-<body>
+<body id="body">
     <form id="form1" runat="server">
 
 <header id="menu">
-    	<h2>The Cat App</h2>
+    	<h2><a href="Home.aspx" title="Home page">The Cat App</a></h2>
         <nav>
 		<ul>
-        	<li><a href="cats.html" title="Cat info page">Cats</a></li>
-            <li><a href="gallery.html" title="gallery page">Gallery</a></li>
-            <li><a href="quiz.html" title="test your knowledge with our quiz">Quiz</a></li>
-            <li><a href="#" title="dress up game ">Dress Up Game</a></li>
+        	<li><a href="Cats.aspx" title="Cat info page">Cats</a></li>
+            <li><a href="Catlightbox.aspx" title="gallery page">Gallery</a></li>
+            <li><a href="Cat Quiz.aspx" title="test your knowledge with our quiz">Quiz</a></li>
+            <li><a href="Dressup.aspx" title="dress up game ">Dress Up Game</a></li>
 		</ul>
 	</nav>
     </header>
@@ -49,7 +51,7 @@
 		        <label for="tab-8" class="tab-label-8">Mr Fluffy</label>
 
             
-			    <div class="clear-shadow"></div>
+			     <div class="clear-shadow"></div>
 				
 		        <div class="content">
 			        <div class="content-1">
@@ -216,7 +218,7 @@
         </SelectedItemTemplate>
     </asp:ListView>
                         <h3>Description</h3>
-						<p>Like you, I used to think the world was this great place where everybody lived by the same standards I did, then some kid with a nail showed me I was living in his world, a world where chaos rules not order, a world where righteousness is not rewarded. That's Cesar's world, and if you're not willing to play by his rules, then you're gonna have to pay the price. </p>
+						<p>Alice is the innocent one, her pure soul has not yet been corrupted by the others. Alice has hazel eyes and enjoys lobster sushi.</p>
                      
 				    </div>
 			        <div class="content-2">
@@ -379,7 +381,7 @@
 
                    
                         <h3>Description</h3>
-						<p>Like you, I used to think the world was this great place where everybody lived by the same standards I did, then some kid with a nail showed me I was living in his world, a world where chaos rules not order, a world where righteousness is not rewarded. That's Cesar's world, and if you're not willing to play by his rules, then you're gonna have to pay the price. </p>
+						<p>A disgusting cat with no friends. He conceals a rotting smoked cod between his folds which lends him a distinctive odor. Also operates under the pseudonym Paulo Fischoder. </p>
 				    </div>
 			        <div class="content-3">
 						<asp:AccessDataSource ID="AccessDataSource4" runat="server" 
@@ -539,7 +541,7 @@
         </SelectedItemTemplate>
     </asp:ListView>
                         <h3>Description</h3>
-						<p>Like you, I used to think the world was this great place where everybody lived by the same standards I did, then some kid with a nail showed me I was living in his world, a world where chaos rules not order, a world where righteousness is not rewarded. That's Cesar's world, and if you're not willing to play by his rules, then you're gonna have to pay the price. </p>
+						<p>Wigget Sans-Shereef. Notorious for his mispronounciation of words such as widget, ajax and sans serif - words he read in a book once, somewhere. He continues to teach web development despite the fact that his bachelors is in Agricultural Science. Claims to suffer from chronic back pain from an obsessive amount of texting and playing candy crush saga and checking hope ur ok hun xxx, which he does not get, however this is merely a cover for his unwillingness to teach.</p>
 				    </div>
 				    <div class="content-4">
 						<asp:AccessDataSource ID="AccessDataSource5" runat="server" 
@@ -699,7 +701,7 @@
         </SelectedItemTemplate>
     </asp:ListView>
                         <h3>Description</h3>
-						<p>Like you, I used to think the world was this great place where everybody lived by the same standards I did, then some kid with a nail showed me I was living in his world, a world where chaos rules not order, a world where righteousness is not rewarded. That's Cesar's world, and if you're not willing to play by his rules, then you're gonna have to pay the price. </p>
+						<p>A lovely ginger cat. </p>
 				    </div>
                     <div class="content-5">
 						<asp:AccessDataSource ID="AccessDataSource6" runat="server" 
@@ -859,7 +861,7 @@
         </SelectedItemTemplate>
     </asp:ListView>
                         <h3>Description</h3>
-						<p>Like you, I used to think the world was this great place where everybody lived by the same standards I did, then some kid with a nail showed me I was living in his world, a world where chaos rules not order, a world where righteousness is not rewarded. That's Cesar's world, and if you're not willing to play by his rules, then you're gonna have to pay the price. </p>
+						<p>A tall, balding cat who enjoys making formal complaints about the others. Wispy is the oldest cat. He attempts to hide his wispyness beneath a flamboyant toupee. </p>
 				    </div>
                     <div class="content-6">
 						<asp:AccessDataSource ID="AccessDataSource7" runat="server" 
@@ -1019,7 +1021,7 @@
         </SelectedItemTemplate>
     </asp:ListView>
                         <h3>Description</h3>
-						<p>Like you, I used to think the world was this great place where everybody lived by the same standards I did, then some kid with a nail showed me I was living in his world, a world where chaos rules not order, a world where righteousness is not rewarded. That's Cesar's world, and if you're not willing to play by his rules, then you're gonna have to pay the price. </p>
+						<p>Maurice has an idea for a new e-commerce web application. What is it about, Maurice? "Wool." So... a clothing store? Argyle sweaters? "No, Just wool" Maurice replies as his fat sweaty ass rests on your hand. He leans in closer and you can smell a ploughmans sandwich on his breath. He grips his reusable Aldi bag tighter and wheezes. "Just wool." </p>
 				    </div>
                     <div class="content-7">
 						<asp:AccessDataSource ID="AccessDataSource8" runat="server" 
@@ -1179,7 +1181,7 @@
         </SelectedItemTemplate>
     </asp:ListView>
                         <h3>Description</h3>
-						<p>Like you, I used to think the world was this great place where everybody lived by the same standards I did, then some kid with a nail showed me I was living in his world, a world where chaos rules not order, a world where righteousness is not rewarded. That's Cesar's world, and if you're not willing to play by his rules, then you're gonna have to pay the price. </p>
+						<p>Sandra is the most beautiful of all the cats. She has a penchant for married men, ensnaring them with her dark beauty and stealing their souls. Sandra's piercing blue eyes hypnotize her target. Her lifestyle has been compared to the 1995 science-fiction movie Species. She relishes in misbedaving!</p>
 				    </div>
                     <div class="content-8">
 						<asp:AccessDataSource ID="AccessDataSource9" runat="server" 
@@ -1339,13 +1341,18 @@
         </SelectedItemTemplate>
     </asp:ListView>
                         <h3>Description</h3>
-						<p>Like you, I used to think the world was this great place where everybody lived by the same standards I did, then some kid with a nail showed me I was living in his world, a world where chaos rules not order, a world where righteousness is not rewarded. That's Cesar's world, and if you're not willing to play by his rules, then you're gonna have to pay the price. </p>
+						<p>Fluffy est un chat francais.  Il est le plus choux de tout les chats.  Il n'est pas homo il est tout simplement europeen!  Il n'aime pas les chats stupides mais ce ne le fache pas parceque Fluffy est un chat tres calme aussi.  C'est un descendant des roix chats de versailles</p>
 				    </div>
 		        </div>
 			</section>
             </section>
            </div><!--end of content--></div>
+           <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+           <script src="Scripts/jquery-ui-1.10.2.custom.min.js" type="text/javascript"></script>
            <script src="Scripts/ajax.js" type="text/javascript"></script>
+             <script type="text/javascript" src="Scripts/alertify.min.js"></script>
+          
+             
            
             
 <footer>

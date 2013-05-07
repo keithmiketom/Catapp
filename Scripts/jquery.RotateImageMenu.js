@@ -74,7 +74,7 @@ $(function() {
 					/*
 					adds events to the mouse and left / right keys
 					*/
-					$(document).bind('mousewheel', function(e, delta) {
+					$(document).bind('.keydown', function(e, delta) {
 						if(delta > 0) {
 							stopSlideshow();
 							rotateImages(0);

@@ -20,6 +20,14 @@ body#index{
 
 #index p{
 	margin: 0 0 20px 0;	
+	background-color:hsla(360, 0%, 100%, 0.5);
+	padding:20px;
+	border-radius:30px;
+	  -moz-border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    color:#002;
 }
 
 #index p, #index ul{
@@ -71,6 +79,7 @@ body#index{
 	list-style: none;
 	position: fixed;
 	right: 20px;
+	z-index:10000000;
 }
 
 #index #nav li{
@@ -100,7 +109,7 @@ body#index{
 }
 
 #index #second .bg{
-	background: url(../images/marl.png) 50% 0 no-repeat fixed;
+	background: url(../images/marl2.gif) 50% 0 no-repeat fixed;
 	height: 1300px;
 	margin: 0 auto;
 	padding: 0;
@@ -129,7 +138,8 @@ body#index{
 	background: url(../images/ginglvu.jpg)  fixed;
 	color: #002;
 	height: 650px;
-	padding: 100px 0 0 0;	
+
+	padding: 100px 0 60px 0;	
 }
  #index #sixth p{
 	background-color:hsla(360, 0%, 100%, 0.5);
@@ -148,16 +158,15 @@ body#index{
 	padding: 40px 0 0 0;
 }
 
-#index .story{
+#index #sixth .story{
 	margin: 0 auto;
-	min-width: 980px;
+	min-width: 1280px;
 	overflow: auto;
-	width: 980px;
+	width: 1280px;
 }
 
-/*ff99cc*/
  #index .story .float-left,#index .story .float-right{
-	padding: 100px 0 0 0;
+	padding: 100px 40px 0 0;
 	position: relative;
 	width: 350px;	
 }
@@ -258,32 +267,51 @@ border-radius:40px;
 3.					Cats landing Trvia Page
 *******************************************************************************/
 
-#cats header,#cats  footer{
+header, footer{
 	width:100%;
 	background-color:hsla(330, 80%, 70%, 0.8);
 	background-image:url(../images/haedandfoot.png);
 	height:200px;
 	}
-#cats footer{
+ footer{
 	margin-bottom:-30px;
 	border-top:10px solid hsla(340, 50%, 50%, 1.0);}
-#cats header{
+ header{
 	border-bottom:10px solid hsla(340, 50%, 50%, 1.0);
 	margin:-30px auto;}
 	
-#cats header>h2{
+header>h2{
 	font-family: sans-serif;
 	font-size:2em;
 	padding:30px;
 	float:left;}
-#cats nav {
+	header>h2 a:link{	
+ color:Black;
+ text-decoration:none
+ }
+
+header>h2 a:visited{	
+ color:Black;
+ text-decoration:none
+ }
+ 
+ header>h2 a:hover{	
+ color:Black;
+ text-decoration:none
+ }
+ 
+ header>h2 a:active{	
+ color:Black;
+ text-decoration:none
+ }
+ nav {
 	float:right;
 	margin:10px auto;}
 	
-#cats nav ul{
+nav ul{
 	list-style:none;
 	}
-#cats nav li{
+ nav li{
 	float:left;
 	padding:20px;
 	background-color:hsla(280, 80%, 60%, 0.9);
@@ -294,26 +322,27 @@ border-radius:40px;
 	text-align:center;
 	font-family:sans-serif;
 	}
-#cats nav li a{
+ nav li a{
 	text-decoration:none;
 	color:white;}
-#cats nav li:hover{
+ nav li:hover{
 	border-top-left-radius:30px;
 	border-bottom-right-radius:30px;}
-#cats nav li a:hover{
+ nav li a:hover{
 	text-decoration:underline;
 	}
 
 
-#cats body{
+body{
 	font-family: 'Open Sans Condensed','Arial Narrow', serif;
-	background: #ddd url(../images/bg.jpg) repeat top left;
+	background: #bbb url(../images/bg.jpg) repeat top left;
 	font-weight: 400;
 	font-size: 15px;
 	color: #333;
 	-webkit-font-smoothing: antialiased;
 	-moz-font-smoothing: antialiased;
-	font-smoothing: antialiased;}
+	font-smoothing: antialiased;
+	min-height:800px;}
 	
 #cats .content img{
 	border-radius:8px;
@@ -321,6 +350,7 @@ border-radius:40px;
     -webkit-border-radius: 8px;
     -ms-border-radius: 8px;
     -o-border-radius: 8px;
+    border: 2px solid hsla(320, 80%, 40%, 1.0);
 	float:left;
 	}
 
@@ -334,7 +364,7 @@ border-radius:40px;
 	position: absolute;
 	z-index: 1000;
 	width: 80px;
-	height: 40px;
+	height: 50px;
 	left: 0px;
 	top: 0px;
 	opacity: 0;
@@ -344,21 +374,21 @@ border-radius:40px;
 }
 
 #cats .tabs label {
-	background: #69F;
-	background: -moz-linear-gradient(top, #69F 0%, #007 100%);
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#69F), color-stop(100%,#007));
-	background: -webkit-linear-gradient(top, #69F 0%,#007 100%);
-	background: -o-linear-gradient(top, #69F 0%,#007 100%);
-	background: -ms-linear-gradient(top, #69F 0%,#007 100%);
-	background: linear-gradient(top, #69F 0%,#007 100%);
+	background: magenta;
+	background: -moz-linear-gradient(top, magenta 0%, #007 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,magenta), color-stop(100%,#007));
+	background: -webkit-linear-gradient(top, magenta 0%,#007 100%);
+	background: -o-linear-gradient(top, magenta 0%,#007 100%);
+	background: -ms-linear-gradient(top, magenta 0%,#007 100%);
+	background: linear-gradient(top, magenta 0%,#007 100%);
 	font-size: 0.8em;
 	line-height: 40px;
-	height: 40px;
+	height: 50px;
 	position: relative;
 	padding: 0 20px;
     float: left;
 	display: block;
-	width: 110px;
+	width: 80px;
 	color: #fff;
 	letter-spacing: 1px;
 	text-transform: uppercase;
@@ -385,7 +415,7 @@ border-radius:40px;
 }
 
 #cats .tabs input:hover + label {
-	background: #69F;
+	background: magenta;
 }
 
 #cats .tabs label:first-of-type {
@@ -421,7 +451,7 @@ border-radius:40px;
 }
 
 #cats .tabs input:checked + label {
-    background:#69F;
+    background:magenta;
 	z-index: 10;
 }
 
@@ -475,7 +505,7 @@ border-radius:40px;
 }
 #cats .content div h2,
 #cats .content div h3{
-	color: #69F;
+	color: magenta;
 }
 #cats .content div p {
 	font-size: 1.0em;
@@ -485,7 +515,7 @@ border-radius:40px;
 	color: #777;
 	padding-left: 15px;
 	font-family: Cambria, Georgia, serif;
-	border-left: 8px solid rgba(0,15,105, 0.2);
+	border-left: 8px solid hsla(321, 100%, 50%, 0.4);
 }
 
 #cats .defs{
@@ -500,12 +530,14 @@ border-radius:40px;
 4.					Gallery Page
 *******************************************************************************/
 
-body.gallery{
-	background:#f0f0f0;
-	background-image:url(../images/lvucits.png);
+div#gallery{
+
 	color:#000;
 	font-family: 'PT Sans Narrow', Arial, sans-serif;
 	font-size:16px;
+	height:900px;
+	margin-top:-80px;
+
 }
 #gallery a{
 	color:#000;
@@ -522,8 +554,16 @@ body.gallery{
 }
 #gallery .rm_wrapper{
 	width:1160px;
-	margin:0 auto;
+	margin:50px auto 0;
 	position:relative;
+	background-color:#f0f0f0;
+	border:30px thin magenta;
+	border-radius: 20px;
+            -moz-border-radius: 20px;
+            -webkit-border-radius: 20px;
+            -ms-border-radius: 20px;
+            -o-border-radius: 20px;
+	
 }
 #gallery .rm_container{
 	width:1050px;
@@ -533,15 +573,21 @@ body.gallery{
 	margin:0 auto;
 }
 #gallery .rm_container h2{
-	background:transparent url(../images/lines.png) repeat top left;
+	background:magenta url(../images/lines.png) repeat top left;
 	padding:10px 30px;
 	position:absolute;
-	bottom:170px;
-	right:0px;
+	bottom:10px;
+	right:20px;
 	color:#000;
 	font-size:36px;
 	text-transform:uppercase;
 	text-shadow:1px 0px 1px #fff;
+	border-radius: 20px;
+            -moz-border-radius: 20px;
+            -webkit-border-radius: 20px;
+            -ms-border-radius: 20px;
+            -o-border-radius: 20px;
+	 
 }
 #gallery .rm_container ul{
 	width:1170px;
@@ -619,7 +665,7 @@ body.gallery{
 }
 #gallery .rm_controls{
 	position:absolute;
-	top:0px;
+	top:-30px;
 	left:-40px;
 	height:20px;
 }
@@ -738,11 +784,12 @@ body.gallery{
     -o-border-radius: 20px;
 }
 
-#quiz div.quiz{
+ .quiz{
     width:750px;
 	min-height:500px;
-	padding:20px;
-    margin: 0 auto;
+	height:700px;
+	padding: 0 20px;
+    margin: 40px auto;
 	border-radius: 40px;
 	background-color:#09F;
     border:3px solid #008;
@@ -757,6 +804,20 @@ body.gallery{
 *******************************************************************************/
 
 /*Lightbox start*/
+#lightgal{
+    width:1100px;
+	min-height:500px;
+	height:700px;
+	padding: 20px;
+    margin: 40px auto;
+	border-radius: 40px;
+    background-image:url(../images/lvucits.png);
+    border:3px solid #008;
+    -moz-border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;}
+
 ul.lb-album
 {
     list-style:none;}
