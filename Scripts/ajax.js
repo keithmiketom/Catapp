@@ -2,7 +2,12 @@ var display_content = function(response){
   $("#content").html(response);
 
   $("#content a").on("click", monitor_links);
-
+  $.get(url, monitor_links);
+  past_url = url;
+  $.get('Default.aspx', function (data) {
+      $('body').append(data);
+      $('#content a').lightBox();
+  }, 'html');
 }
 
 var monitor_links = function(e){
@@ -14,10 +19,11 @@ var monitor_links = function(e){
         url: url,
         method: $(this).attr("data-method"),
         success: display_content,
-        error: function() { $(link).parent("tr").remove();}
+        error: function() { $(link).parent("div").remove();}
     });
 
 }
+
 
 $("#menu a").on("click", monitor_links);
 
@@ -25,7 +31,7 @@ $("#menu a").on("click", monitor_links);
 /*
 
 var add_events = (function () {
-    $(".products tr").on("click", function () {
+    $("#content a").on("click", function () {
         var id = $(this).find("td:first").text();
         var url = "product.aspx?id=" + id;
         $.get(url, ajax_loaded);

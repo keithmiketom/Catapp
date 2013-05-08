@@ -1,6 +1,6 @@
 ﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="Cat Quiz.aspx.vb" Inherits="Cat_Quiz" %>
 
-
+<div id="content">
     <div class="quiz">
     <div id="quiz" >
 <h1>The Cat Quiz</h1>
@@ -26,3 +26,7 @@
  <script src="Scripts/quiz.js" type="text/javascript"></script>
 
 
+ <script>
+     alertify.success("Quiz");
+</script>
+</div>

@@ -23,7 +23,7 @@
 	<div id="intro">
 		<div class="story">
 	    	<div class="float-left">
-            <h1>All About Cats</h1>
+            <h1 class="head1">All About Cats</h1>
 			<h2>I'm onto you...</h2>
 	        <p>Cat's are watching, cats are knowing, cats are always there always present, waiting and watching, meowing nad purring, sleeping and hiding, and rolling around.</p>
 	        </div>
@@ -36,7 +36,7 @@
 	            <h2>Some People Call him Maurice</h2>
 	            <p>He loves Wool</p><br /><br /><br />
 	            <p>Maurice has an idea for a new e-commerce web application. What is it about, Maurice? "Wool." So... a clothing store? Argyle sweaters? "No, Just wool" Maurice replies as his fat sweaty ass rests on your hand. He leans in closer and you can smell a ploughmans sandwich on his breath. He grips his reusable Aldi bag tighter and wheezes. "Just wool." </p>
-                <p>He has a litter of 10 kittens, all named after types of wool, thought they probably came from the milkman.</p>
+                <p>He has a litter of 10 kittens, all named after types of wool, thought they probably came from the milkman. He likes to think he can code, and is master of the Wool Wide Web</p>
 	        </div>
 	    </div> <!--.story-->
 
@@ -142,13 +142,14 @@
             </div>
 	        <!--roulette thing here -->
 	    </div> <!--.story-->
-          <span class="links"><a href="cats.aspx" alt="cats link" class="entre">Enter Site</a></span>
+          <span class="links"><a href="About.aspx" alt="cats link" class="entre">Enter Site</a></span>
 	</div> <!--#fifth-->
 <script type="text/javascript" src="Scripts/jquery.parallax-1.1.3.js"></script>
 <script type="text/javascript" src="Scripts/alertify.min.js"></script>
 <script type="text/javascript" src="Scripts/jquery.localscroll-1.2.7-min.js"></script>
 <script type="text/javascript" src="Scripts/jquery.scrollTo-1.4.2-min.js"></script>
 <script type="text/javascript" src="Scripts/fruitmachine.js"></script>
+<script type="text/javascript" src="Scripts/jquery.lettering-0.6.1.min.js"></script>
 <script type="text/javascript">
     $(document).ready(function () {
         $('#nav').localScroll(800);
@@ -165,6 +166,9 @@
         $('#sixth').parallax("50%", 0.1);
 
     })
+    $(document).ready(function () {
+        $(".head1").lettering();
+    });
 </script>
 
 		<script type="text/javascript" src="Scripts/jquery.transform-0.9.3.min_.js"></script>

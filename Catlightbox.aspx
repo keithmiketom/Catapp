@@ -1,6 +1,9 @@
 ﻿<%@ Page Language="VB" AutoEventWireup="false" CodeFile="Catlightbox.aspx.vb" Inherits="Catlightbox" %>
 
 <div id="lightgal">
+<script>
+    alertify.success("gallery");
+</script>
   
      <section>
 				<ul class="lb-album">
@@ -22,7 +25,7 @@
 						</div>
 					</li>
 					<li>
-						<a href="#image-2">
+						<a href="#image-2" rel="lightbox[cats]">
 							<img src="images/2.gif" alt="image02">
 							<span>Smoked Cod</span>
 						</a>
@@ -36,7 +39,7 @@
 								<h3>Smoked Cod<span></span></h3>
 								<p>A disgusting cat with no friends. He conceals a rotting smoked cod between his folds which lends him a distinctive odor. Also operates under the pseudonym Paulo Fischoder.</p>
 							</div>
-							<a href="#page" class="lb-close">x Close</a>
+							<a href="#page" rel="lightbox[cats]" class="lb-close">x Close</a>
 						</div>
 					</li>
 					<li>

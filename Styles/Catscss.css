@@ -1,16 +1,203 @@
-﻿/*******************************************************************************
+﻿@charset "utf-8";
+/* CSS Document */
+/*******************************************************************************
 1.					Import other stylesheet
 *******************************************************************************/
 @import url('normalize.css');
 @import url('alertify.default.css');
 @import url('ui-lightness/jquery-ui-1.10.2.custom.min.css');
 
+/*******************************************************************************
+1.1					About
+*******************************************************************************/
+body#body 
+{
+    font-family: 'Open Sans Condensed','Arial Narrow', serif;
+	background: #bbb url(../images/bg.jpg) repeat top left;
+	font-weight: 400;
+	font-size: 15px;
+	color: #333;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	min-height:800px;}
+#splash{min-height:600px;}
 
+#splash p
+{
+    padding:50px;
+    background-color:#f0f0f0;
+    border-radius:50px;
+    margin:40px;}
+header, footer{
+	width:100%;
+	background-color:hsla(330, 80%, 70%, 0.8);
+	background-image:url(../images/haedandfoot.png);
+	height:200px;
+	}
+ footer{
+	margin-bottom:-30px;
+	border-top:10px solid hsla(340, 50%, 50%, 1.0);}
+ header{
+	border-bottom:10px solid hsla(340, 50%, 50%, 1.0);
+	margin:-30px auto;}
+	
+header>h2{
+	font-family: sans-serif;
+	font-size:2em;
+	padding:30px;
+	float:left;}
+	header>h2 a:link{	
+ color:Black;
+ text-decoration:none
+ }
+
+header>h2 a:visited{	
+ color:Black;
+ text-decoration:none
+ }
+ 
+ header>h2 a:hover{	
+ color:Black;
+ text-decoration:none
+ }
+ 
+ header>h2 a:active{	
+ color:Black;
+ text-decoration:none
+ }
+ nav {
+	float:right;
+	margin:10px auto;}
+	
+nav ul{
+	list-style:none;
+	}
+ nav li{
+	float:left;
+	padding:20px;
+	background-color:hsla(280, 80%, 60%, 0.9);
+	border-bottom-left-radius:30px;
+	border-top-right-radius:30px;
+	margin-right:5px;
+	width:130px;
+	text-align:center;
+	font-family:sans-serif;
+	}
+ nav li a{
+	text-decoration:none;
+	color:white;}
+ nav li:hover{
+	border-top-left-radius:30px;
+	border-bottom-right-radius:30px;}
+ nav li a:hover{
+	text-decoration:underline;
+	}
+
+
+body{
+	font-family: 'Open Sans Condensed','Arial Narrow', serif;
+	background: #bbb url(../images/bg.jpg) repeat top left;
+	font-weight: 400;
+	font-size: 15px;
+	color: #333;
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	min-height:800px;}
+	        /******************************************************************
+            1.2					Lettering.js styling
+            *******************************************************************/
+                h2.fancy_title  
+                {
+                    color:White;
+                    font-family:sans-serif;
+                    font-size:5.5em;
+                    margin:10px 0 -50px;
+                    background-color:hsla(320, 50%, 50%, 0.5);
+                    border-radius:60px;
+                   }
+                .fancy_title .char4, .fancy_title .char8
+                {
+                    padding-left:20px;}
+                .fancy_title .char1, .fancy_title .char5, .fancy_title .char9
+                {color:hsla(270, 80%, 60%, 1.0);
+                    }
+                .fancy_title .char1:hover, .fancy_title .char5:hover, .fancy_title .char9:hover
+                {color:hsla(220, 80%, 60%, 1.0);
+                 -webkit-transform: rotate(15deg) !important;
+                    }
+                .fancy_title .char2, .fancy_title .char6, .fancy_title .char10
+                {
+                    color:hsla(60, 90%, 60%, 1.0);
+                    -webkit-transform: rotate(15deg) !important;
+                    margin-left:-5px;}
+                .fancy_title .char2:hover, .fancy_title .char6:hover, .fancy_title .char10:hover
+                {
+                    color:hsla(160, 90%, 60%, 1.0);
+                    -webkit-transform: rotate(-15deg) !important;
+                   }
+                .fancy_title .char3, .fancy_title .char7, .fancy_title .char11
+                {
+                    color:hsla(180, 80%, 60%, 1.0);
+                    margin-left:-5px;}
+                .fancy_title .char3:hover, .fancy_title .char7:hover, .fancy_title .char11:hover
+                {
+                    color:hsla(30, 100%, 70%, 1.0);
+                    -webkit-transform: rotate(15deg) !important;
+                   }
+                   
+               /*Parallax page*/
+               .head1
+               {    width:700px;
+                   vertical-align:middle;
+                   height:3em; 
+                   line-height:3em;
+           }
+               .head1 .char2
+               {font-size:1.1em;
+                
+                   }
+               .head1 .char3
+               {font-size:1.3em;
+                   }
+                   .head1 .char4
+               {font-size:1.5em;
+                   }
+               .head1 .char5
+               {font-size:1.7em;
+                   }
+                   .head1 .char6
+               {font-size:1.9em;
+                   }
+               .head1 .char7
+               {font-size:2.1em;
+                   }
+                     .head1 .char8
+               {font-size:2.3em;
+                   }
+               .head1 .char9
+               {font-size:2.6em;
+                   }
+                   .head1 .char10
+               {font-size:3.0em;
+                   }
+               .head1 .char11
+               {font-size:3.3em;
+                   }
+                   .head1 .char12
+               {font-size:3.8em;
+                   }
+               .head1 .char13
+               {font-size:4.2em;
+                   }
+                .head1 .char14
+               {font-size:4.6em;
+                   }
 /*******************************************************************************
 2.					Home Splash page
 *******************************************************************************/
-@charset "utf-8";
-/* CSS Document */
+
 
 body#index{
 	margin: 0;
@@ -110,21 +297,12 @@ body#index{
 
 #index #second .bg{
 	background: url(../images/marl2.gif) 50% 0 no-repeat fixed;
-	height: 1300px;
-	margin: 0 auto;
+	height: 600px;
+	margin: 40 auto;
 	padding: 0;
 	position: absolute;
 	width: 900px;
 	z-index: 200;
-}
-#index #second .bg2{
-	background: url(../images/marl.png) 95% 0 no-repeat fixed;
-	height: 1300px;
-	margin: 0 auto;
-	padding: 0;
-	position: relative;
-	width: 700px;
-	z-index: 205;
 }
 
 #index #third{
@@ -267,82 +445,9 @@ border-radius:40px;
 3.					Cats landing Trvia Page
 *******************************************************************************/
 
-header, footer{
-	width:100%;
-	background-color:hsla(330, 80%, 70%, 0.8);
-	background-image:url(../images/haedandfoot.png);
-	height:200px;
-	}
- footer{
-	margin-bottom:-30px;
-	border-top:10px solid hsla(340, 50%, 50%, 1.0);}
- header{
-	border-bottom:10px solid hsla(340, 50%, 50%, 1.0);
-	margin:-30px auto;}
-	
-header>h2{
-	font-family: sans-serif;
-	font-size:2em;
-	padding:30px;
-	float:left;}
-	header>h2 a:link{	
- color:Black;
- text-decoration:none
- }
-
-header>h2 a:visited{	
- color:Black;
- text-decoration:none
- }
- 
- header>h2 a:hover{	
- color:Black;
- text-decoration:none
- }
- 
- header>h2 a:active{	
- color:Black;
- text-decoration:none
- }
- nav {
-	float:right;
-	margin:10px auto;}
-	
-nav ul{
-	list-style:none;
-	}
- nav li{
-	float:left;
-	padding:20px;
-	background-color:hsla(280, 80%, 60%, 0.9);
-	border-bottom-left-radius:30px;
-	border-top-right-radius:30px;
-	margin-right:5px;
-	width:130px;
-	text-align:center;
-	font-family:sans-serif;
-	}
- nav li a{
-	text-decoration:none;
-	color:white;}
- nav li:hover{
-	border-top-left-radius:30px;
-	border-bottom-right-radius:30px;}
- nav li a:hover{
-	text-decoration:underline;
-	}
-
-
-body{
-	font-family: 'Open Sans Condensed','Arial Narrow', serif;
-	background: #bbb url(../images/bg.jpg) repeat top left;
-	font-weight: 400;
-	font-size: 15px;
-	color: #333;
-	-webkit-font-smoothing: antialiased;
-	-moz-font-smoothing: antialiased;
-	font-smoothing: antialiased;
-	min-height:800px;}
+#content
+{
+    margin-top:50px;}
 	
 #cats .content img{
 	border-radius:8px;
