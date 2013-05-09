@@ -1,6 +1,4 @@
-
 var questions = [
-//	{"text": "this is my question"},
     {"text": "Which is not a cat?", "answers": ["Alice","Sandra","Smoked Cod","Pamplemousse" ], "correct": "Pamplemousse" },
     {"text": "Which cat is fat?", "answers": ["Smoked Cod","Mr. Fluffy","Alice","Sandra" ], "correct": "Smoked Cod"  },
     {"text": "Who is the prettiest cat?", "answers": ["Alice","Smoked Cod","Sandra","Goolag" ], "correct": "Sandra" },
@@ -16,50 +14,36 @@ var questions = [
 ];
 
 var score = 0;//assign a value to score
-var display_question =(function(){//creates a var
-    var question = questions[score];//targets a specific question, change array position to change q number
+var display_question = (function () {//creates a var
+    countdown_current = max_countdown;
+    countdown_interval = mainApp.setInterval(countdown, 1000);
+    var question = questions[score]; //targets a specific question, change array position to change q number
 
     $("#question").text(question.text); //select key => value
 
     $("#answers").empty();
-    for(var i in question.answers) {
-        var answer =question.answers[i];
+    for (var i in question.answers) {
+        var answer = question.answers[i];
         $("#answers").append("<li>" + answer + "</li>"); //append adds instead of overwrites as list items
     }
 
     $("#answers li").on("click", validate_answer); //aims to validate the answer by calling the variable val ans
 }
 );
-//previous validation
-/*var validate_answer = (function () { //creates a function that will validate the answer
-    if( $(this).text().toLowerCase() == questions[score].correct.toLowerCase()){
-        score++;
-        if(questions.length > score){
-            display_question();
-            countdown = max_countdown
-        }else{
-            $("#question").text("Thank Mew for finishing!");
-            $("#answers").empty();
-            clearInterval(countdown_interval);
-        }
-    }else{
-        display_error();
-    }
-    display_score();
-});
-*/
+
 var validate_answer = (function () {
     var message = questions[score].message;
     //if the clicked item is equal to questions correct item, else we are wrong:
     if ($(this).text().toLowerCase() == questions[score].correct.toLowerCase()) {
+        clearInterval(countdown_interval);
+
         score++;
         display_score();
+
         $("#answers").empty();
-
         $('#question').html('<h4>Correct!</h4><a id="next-link">Next Question</a>');
-
         $('#next-link').click(display_question);
-        countdown = max_countdown
+        
 
         // More Questions
         if (questions.length > score) {
@@ -71,56 +55,39 @@ var validate_answer = (function () {
             $('#winner').show();
             $("#question").text("Thank Mew for finishing!");
             $("#answers").empty();
-            clearInterval(countdown_interval);
-
 
             document.getElementById("play").play();
-
         }
 
     } else {
         $(this).animate({ width: '10%' }, 1000, 'easeOutBounce');
         $(this).css("background-color", "#ff0000");
-        /*
-       
-       tried to get score to remove a point if answered wrongly and didnt have time to finish
-        if (score > 1) {
-        score--;
-        display_score;
-        validate_answer;
-        } else {
-        score == 1; display_score; validate_answer;
-        }
-        */
-
     }
 
     display_score();
 });
+
 var display_error = (function(){
     $("#question").text("You ran out of time, refresh and try again");
     $("#answers").empty();
-    clearInterval(countdown_interval);
 });
+
 var display_score =(function(){
     $("#score").text(score);
 });
+
 var max_countdown = 15;
-var countdown = max_countdown;
-var display_countdown = (function () {
-    $("#countdown").text(countdown);
-});
+var countdown_current = max_countdown;
+var countdown_interval;
+var countdown = function() {
+    $("#countdown").text(countdown_current);
 
-var countdown_interval = setInterval( function() {
-        display_countdown();
-        countdown--;
-        if(countdown < 0){
-            display_error();
-        }
-    },
-    1000);
-
-
+    countdown_current--;
+    if (countdown_current < 0) {
+        display_error();
+        clearInterval(countdown_interval);
+    }
+}
 
 display_question();//displays the content of the question variable
 

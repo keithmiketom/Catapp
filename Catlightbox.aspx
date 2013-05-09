@@ -4,7 +4,7 @@
 <script>
     alertify.success("gallery");
 </script>
-  
+  <h2>Cat Trivia Gallery</h2>
      <section>
 				<ul class="lb-album">
 					<li>
@@ -25,21 +25,19 @@
 						</div>
 					</li>
 					<li>
-						<a href="#image-2" rel="lightbox[cats]">
+						<a href="#image-2">
 							<img src="images/2.gif" alt="image02">
 							<span>Smoked Cod</span>
 						</a>
 						
-                  
-                   
-                        
                         <div class="lb-overlay" id="image-2">
+                            <a href="#page" class="lb-close">x Close</a>
 							<img src="images/2.jpg" alt="image02" />
 							<div>							
 								<h3>Smoked Cod<span></span></h3>
-								<p>A disgusting cat with no friends. He conceals a rotting smoked cod between his folds which lends him a distinctive odor. Also operates under the pseudonym Paulo Fischoder.</p>
+								<p>A disgusting cat whose only friend is maurice. He conceals a rotting smoked cod between his folds which lends him a distinctive odor. Also operates under the pseudonym Paulo Fischoder.</p>
 							</div>
-							<a href="#page" rel="lightbox[cats]" class="lb-close">x Close</a>
+							
 						</div>
 					</li>
 					<li>

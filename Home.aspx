@@ -111,8 +111,9 @@
 	<div id="third">
 		<div class="story">
 	    	<div class="float-left">
-	        	<h2>What Happens When JavaScript is Disabled?</h2>
-	            <p>The user gets a slap! Actually, all that jQuery does is moves the backgrounds relative to the position of the scrollbar. Without it, the backgrounds simply stay put and the user would never know they are missing out on the awesome! CSS2 does a good enough job to still make the effect look cool.</p>
+	        	<h2>Ginger cats</h2>
+	            <p>Research shows ginger moggies are cat owners’ favourites, because they are perceived as friendly and lovable. </p>
+	            <p>In contrast, white cats are seen as aloof and distant, tabby cats as intolerant and black cats - as befits their depiction in folklore - as unlucky and mysterious.The two primary color genes in cats are black and red. The reason lies in the genes and chromosomes the cat has inherited. The red gene is carried on the X chromosome; for this reason ginger-colored cats are usually male with females existing at a ratio of 1 out of every 5. Ginger cats are said to be spirited and fiery, however they have personalities as warm as their coat color, and are mellow, loving cats.</p>
 	        </div>
 	    </div> <!--.story-->
 	</div> <!--#third-->

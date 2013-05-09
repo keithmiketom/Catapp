@@ -18,7 +18,7 @@
         	<li> <asp:Hyperlink ID="Hyperlink1" NavigateUrl="~/Cats.aspx" Runat="server" Title="Cats" >Cats</asp:Hyperlink></li>
             <li><a href="Catlightbox.aspx" title="gallery page">Gallery</a></li>
             <li><a href="Cat Quiz.aspx" title="test your knowledge with our quiz">Quiz</a></li>
-            <li><a href="Default.aspx" title="dress up game ">Dress Up Game</a></li>
+            <li><a href="Dressup.aspx" title="dress up game ">Dress Up Game</a></li>
 		</ul>
 	</nav>
     </header>
@@ -33,6 +33,7 @@
           <!-- <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>-->
           <script src="Scripts/jquery-1.7.2.min.js" type="text/javascript"></script>
            <script src="Scripts/jquery-ui-1.10.2.custom.min.js" type="text/javascript"></script>
+           <script src="Scripts/main.js" type="text/javascript"></script>
            <script src="Scripts/ajax.js" type="text/javascript"></script>
              <script type="text/javascript" src="Scripts/alertify.min.js"></script>
              <script src="Scripts/jquery.lettering-0.6.1.min.js" type="text/javascript"></script>

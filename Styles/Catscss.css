@@ -1131,5 +1131,43 @@ x:-o-prefocus, .lb-overlay img {
 }
 
 /*******************************************************************************
-6.					End of CSS
+7.					Dressup
+*******************************************************************************/
+#content.dressup
+{
+    height:800px;
+    background-image:url(../images/lvucits.png);
+    margin-top:-50px;}
+
+
+#smoky
+{
+    float:left;
+    width:500px;}
+#smoky img
+{
+    position:relative;
+    top:100px;
+    left:250px;}
+
+
+#images 
+{
+    float:right;
+    width:500px;
+    /*position:relative;*/
+    height:700px;
+    padding:30px;
+}
+
+#images img
+{
+    float:left;
+    margin-right:30px;
+    /*position:absolute;*/
+  
+}
+
+/*******************************************************************************
+8.					End of CSS
 *******************************************************************************/
