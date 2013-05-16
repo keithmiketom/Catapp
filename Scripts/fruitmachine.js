@@ -5,15 +5,15 @@ var arrayNum = 0;
 var speed = 100;
 var count;
 
-playSound("wellcome.wav");
+playSound("catmeow.wav");
 
 function startgame(leverPic) {
-    playSound("wheelspin.wav");
+    playSound("audio/catmeowsmoke.wav");
     rndA = Math.round(Math.random() * 3) + 24;
     rndB = Math.round(Math.random() * 3) + 12;
     rndC = Math.round(Math.random() * 3);
     count = 48;
-    leverPic.setAttribute("src", "images/lever2.jpg");
+    leverPic.setAttribute("src", "images/navs/lever2.jpg");
     cycles();
     var time = setTimeout("resetLever();", 750);
 }
@@ -50,7 +50,7 @@ function changePic(x) {
 
 function resetLever() {
     lever = document.getElementById("leverpic");
-    lever.setAttribute("src", "images/lever1.jpg");
+    lever.setAttribute("src", "images/navs/lever1.jpg");
 }
 
 function endgame() {

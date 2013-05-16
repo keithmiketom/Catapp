@@ -9,20 +9,21 @@
   Location: Dublin, Ireland
 
   Designer/Developer: David Winters
-  Site:
-  Twitter:
+  Site: no site of yet
+  Twitter: @misbedaving
   Location: Dublin, Ireland
 
   Designer/Developer: Sandra Mc Cormack, the sexy one
-  Site:
-  Twitter:
+  Site: www.smc.com
+  Twitter: @thehotone
   Location: Dublin, Ireland and sometimes NYC, USA
 
 
 
 /* THANKS */
   Names (& URL):
-  Philippe Vinchon
+  Philippe Vinchon 
+  Frank McArdle
   Karen Rooney
   Wool
 

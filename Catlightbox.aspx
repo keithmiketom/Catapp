@@ -56,23 +56,27 @@
 							<a href="#page" class="lb-close">x Close</a>
 						</div>
 					</li>
-					<li>
+					
+                    
+                    <li>
 						<a href="#image-4">
 							<img src="images/1.gif" alt="image04">
-							<span>Dave Cat</span>
+							
+                            <span>Dave Cat</span>
 						</a>
 						<div class="lb-overlay" id="image-4">
 						<img src="images/1.jpg" alt="image04" />
 							<div>
                        
-							<div>							
-								<h3>Dave Cat<span></span></h3>
+														<h3>Dave Cat<span></span></h3>
 								<p>A lovely ginger cat</p>
 							</div>
 							<a href="#page" class="lb-close">x Close</a>
 						</div>
 					</li>
-					<li>
+					
+                    
+                    <li>
 						<a href="#image-5">
 							<img src="images/4.gif" alt="image05">
 
@@ -134,7 +138,7 @@
 
 
                             						
-								<h3>Mr Fluffy<span>/pēˈkā/</span></h3>
+								<h3>Mr Fluffy<span></span></h3>
 								<p>Fluffy est un chat francais.  Il est le plus choux de tout les chats.  Il n'est pas homo il est tout simplement europeen!  Il n'aime pas les chats stupides mais ce ne le fache pas parceque Fluffy est un chat tres calme aussi.  C'est un descendant des roix chats de versailles</p>
 							</div>
 							<a href="#page" class="lb-close">x Close</a>

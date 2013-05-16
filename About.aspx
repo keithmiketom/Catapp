@@ -24,10 +24,12 @@
     </header>
     
 	<div id="content">
-
+    
     <div id="splash">
-    <p>this is content</p>
-    </div>
+        <h1> Welcome to the Cat App</h1>
+         <p>
+            <iframe width="640" height="480" src="http://www.youtube.com/embed/sP4NMoJcFd4" frameborder="0" allowfullscreen></iframe>
+            </p></div>
     
      </div><!--end of content--></div>
           <!-- <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>-->

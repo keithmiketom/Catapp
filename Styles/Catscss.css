@@ -23,6 +23,25 @@ body#body
 	min-height:800px;}
 #splash{min-height:600px;}
 
+#splash h1
+{
+    font-size:5em;
+    padding:20px;
+    color:magenta;
+    text-align:center;}
+    
+#splash h1:hover{color:Green;}
+#splash iframe
+{
+    margin-left:250px;
+    border: 2px solid hsl(280, 50%, 50%);
+    border-radius:20px;
+        -moz-border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+    }
+
 #splash p
 {
     padding:50px;
@@ -32,7 +51,7 @@ body#body
 header, footer{
 	width:100%;
 	background-color:hsla(330, 80%, 70%, 0.8);
-	background-image:url(../images/haedandfoot.png);
+	background-image:url(../images/navs/haedandfoot.png);
 	height:200px;
 	}
  footer{
@@ -278,7 +297,7 @@ body#index{
 }
 
 #index #intro{
-	background:url(../images/largeCatbg.jpg) no-repeat right top;
+	background:url(../images/parallax/largeCatbg.jpg) no-repeat right top;
 	color: white;
 	height: 600px;
 	margin: 0 auto;
@@ -286,7 +305,7 @@ body#index{
 }
 
 #index #second{
-	background: url(../images/maurbg2.jpg) no-repeat fixed;
+	background: url(../images/parallax/maurbg2.jpg) no-repeat fixed;
 	background-repeat:repeat;
 	color: white;
 	height: 1300px;
@@ -296,7 +315,7 @@ body#index{
 }
 
 #index #second .bg{
-	background: url(../images/marl2.gif) 50% 0 no-repeat fixed;
+	background: url(../images/dressup/marl2.gif) 50% 0 no-repeat fixed;
 	height: 600px;
 	margin: 40 auto;
 	padding: 0;
@@ -306,14 +325,14 @@ body#index{
 }
 
 #index #third{
-	background: url(../images/footprints.png) repeat fixed;
+	background: url(../images/parallax/footprints.png) repeat fixed;
 	color: white;
 	height: 650px;
 	padding: 100px 0 0 0;	
 }
 
  #index #sixth{
-	background: url(../images/ginglvu.jpg)  fixed;
+	background: url(../images/parallax/ginglvu.jpg)  fixed;
 	color: #002;
 	height: 650px;
 
@@ -655,7 +674,7 @@ div#gallery{
 	text-transform:uppercase;
 	text-shadow:0px 0px 1px #fff;
 	color:#333;
-	background:transparent url(../images/line.png) repeat-x bottom left;
+	background:transparent url(../images/navs/line.png) repeat-x bottom left;
 }
 #gallery .rm_wrapper{
 	width:1160px;
@@ -678,7 +697,7 @@ div#gallery{
 	margin:0 auto;
 }
 #gallery .rm_container h2{
-	background:magenta url(../images/lines.png) repeat top left;
+	background:magenta url(../images/navs/lines.png) repeat top left;
 	padding:10px 30px;
 	position:absolute;
 	bottom:10px;
@@ -761,11 +780,11 @@ div#gallery{
 	opacity:1.0;
 }
 #gallery .rm_nav a.rm_next{
-	background:transparent url(../images/next.png) no-repeat top left;
+	background:transparent url(../images/navs/next.png) no-repeat top left;
 	right:0px;
 }
 #gallery .rm_nav a.rm_prev{
-	background:transparent url(../images/prev.png) no-repeat top left;
+	background:transparent url(../images/navs/prev.png) no-repeat top left;
 	left:0px;
 }
 #gallery .rm_controls{
@@ -789,10 +808,10 @@ div#gallery{
 }
 #gallery .rm_controls a.rm_play{
 	display:none;
-	background:transparent url(../images/play.png) no-repeat center left;
+	background:transparent url(../images/navs/play.png) no-repeat center left;
 }
 #gallery .rm_controls a.rm_pause{
-	background:transparent url(../images/pause.png) no-repeat center left;
+	background:transparent url(../images/navs/pause.png) no-repeat center left;
 }
 
 	
@@ -801,10 +820,14 @@ div#gallery{
 *******************************************************************************/
 	
 #quiz h1{
-    color:red;
-    font-family:sketchetik;
-    font-size:5em;
+    color:magenta;
+    font-family:'Open Sans Condensed','Arial Narrow', serif;;
+    font-size:7em;
 }
+
+#quiz h1:hover
+{
+    color:Green;}
 #quiz div{
     font-family:sans-serif;
 }
@@ -841,13 +864,13 @@ div#gallery{
 #quiz #question{
 	width:300px;
 	margin:-100px 0 0;
-	background-color:#36F;
+	background-color:black;
 	    border-radius: 10px;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
-	border:2px solid #008;
+	border:8px solid hsl(280, 50%, 50%);
 	padding:15px;
 	font:sans-serif 1.2em;
 	color:white;
@@ -856,10 +879,10 @@ div#gallery{
 #quiz #score {
     padding:30px;
 	margin:-100px 0 0;
-    background-color:#36F;
+    background-color:black;
     float:right;
     width:250px;
-    border:3px solid #008;
+    border:8px solid hsl(280, 50%, 50%);
     border-radius: 20px;
     -moz-border-radius: 20px;
     -webkit-border-radius: 20px;
@@ -880,8 +903,8 @@ div#gallery{
     font-size:3em;
     text-align:right;
     border-radius: 20px;
-	background-color:#36F;
-    border:3px solid #008;
+	background-color:black;
+    border:8px solid hsl(280, 50%, 50%);
 	color:white;
     -moz-border-radius: 20px;
     -webkit-border-radius: 20px;
@@ -902,6 +925,7 @@ div#gallery{
     -webkit-border-radius: 40px;
     -ms-border-radius: 40px;
     -o-border-radius: 40px;
+    background-image:url(../images/lvucits.png);
 }	
 
 /*******************************************************************************
@@ -1005,6 +1029,15 @@ ul.lb-album
 	background: -ms-radial-gradient(center, ellipse cover, rgba(255,255,255,0.56) 0%,rgba(241,210,194,1) 100%);
 	background: radial-gradient(center, ellipse cover, rgba(255,255,255,0.56) 0%,rgba(241,210,194,1) 100%);
 }
+
+.lb-overlay img
+{
+    border-radius:30px;
+	        -moz-border-radius: 30px;
+            -webkit-border-radius: 30px;
+            -ms-border-radius: 30px;
+            -o-border-radius: 30px;
+            border:5px solid magenta;}
 .lb-overlay > div{
 	position: relative;
 	color: rgba(27,54,81,0.8);
@@ -1049,6 +1082,13 @@ ul.lb-album
 }
 .lb-overlay a.lb-close{
 	background: rgba(27,54,81,0.8);
+	padding:5px;
+	border-radius:5px;
+	        -moz-border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -ms-border-radius: 5px;
+            -o-border-radius: 5px;
+            border:5px solid magenta;
 	z-index: 1001;
 	color: #fff;
 	position: absolute;
@@ -1135,28 +1175,36 @@ x:-o-prefocus, .lb-overlay img {
 *******************************************************************************/
 #content.dressup
 {
-    height:800px;
+    height:865px;
     background-image:url(../images/lvucits.png);
     margin-top:-50px;}
 
+#content.dressup h2
+{
+    font-size:1.5em;
+    color:hsl(220, 80%, 50%);
+    padding:15px 20px;}
+#content.dressup h2:hover
+{
+    color:hsl(100, 80%, 40%);}
 
 #smoky
 {
     float:left;
-    width:500px;}
+    width:300px;}
 #smoky img
 {
     position:relative;
     top:100px;
-    left:250px;}
+    left:100px;}
 
 
 #images 
 {
     float:right;
-    width:500px;
+    width:800px;
     /*position:relative;*/
-    height:700px;
+    height:500px;
     padding:30px;
 }
 

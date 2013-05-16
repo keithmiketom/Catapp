@@ -41,7 +41,7 @@ var validate_answer = (function () {
         display_score();
 
         $("#answers").empty();
-        $('#question').html('<h4>Correct!</h4><a id="next-link">Next Question</a>');
+        $('#question').html('<h4>Correct!</h4><a id="next-link"><li style="list-style:none; color:black;">Next Question</li></a>');
         $('#next-link').click(display_question);
         
 

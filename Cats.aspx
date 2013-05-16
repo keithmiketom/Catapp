@@ -148,8 +148,20 @@
                     Text='<%# Eval("Age") %>' />
                     </li>
 
-                    <li>
-                    Meow:
+                    <li id="nav-one"><span><a href="#">Alice's Meow</a></span>
+		   	        <audio id="beep-one"  preload="auto">
+				<source src="audio/catmeow.wav"></source>
+				<source src="audio/beep.ogg"></source>
+				
+			</audio>
+				
+			</audio>
+            <script>			           
+             var beepOne = $("#beep-one")[0];
+             $("#nav-one a").mouseenter(function () {
+                        beepOne.play();
+	                });</script>
+                   
                     </li>
                 
                 </ul>
@@ -312,6 +324,19 @@
                     Text='<%# Eval("Age") %>' />
                    
                     </li>
+                    <li id="nav-two"><span><a href="#">Smoked Cod's Meow</a></span>
+		   	        <audio id="beep-two"  preload="auto">
+				<source src="audio/catmeowfat.wav"></source>
+				<source src="audio/beep.ogg"></source>
+				
+			</audio>
+				
+			</audio>
+            <script>
+                var beepTwo = $("#beep-two")[0];
+                $("#nav-two a").mouseenter(function () {
+                    beepTwo.play();
+                });</script></li>
                 
                 </ul>
                 
@@ -358,7 +383,7 @@
 
                    
                         <h3>Description</h3>
-						<p>A disgusting cat with no friends. He conceals a rotting smoked cod between his folds which lends him a distinctive odor. Also operates under the pseudonym Paulo Fischoder. </p>
+						<p>A disgusting cat whose only friend is Maurice. He conceals a rotting smoked cod between his folds which lends him a distinctive odor. Also operates under the pseudonym Paulo Fischoder. </p>
 				    </div>
 			        <div class="content-3">
 						<asp:AccessDataSource ID="AccessDataSource4" runat="server" 
@@ -385,6 +410,7 @@
                     Text='<%# Eval("Age") %>' />
                     
                     </li>
+                       
                 
                 </ul>
                
@@ -474,7 +500,19 @@
                     Text='<%# Eval("Age") %>' />
                     
                     </li>
-                
+                <li id="nav-three"><span><a href="#">Wigget's Meow</a></span>
+		   	        <audio id="beep-three"  preload="auto">
+				<source src="audio/cat_meow_x.wav"></source>
+				<source src="audio/beep.ogg"></source>
+				
+			</audio>
+				
+			</audio>
+            <script>
+                var beepThree = $("#beep-three")[0];
+                $("#nav-three a").mouseenter(function () {
+                    beepThree.play();
+                });</script></li>
                 </ul>
                 
                 
@@ -634,6 +672,19 @@
                     Text='<%# Eval("Age") %>' />
                     
                     </li>
+                    <li id="nav-four"><span><a href="#">Dave Cat's Meow</a></span>
+		   	        <audio id="beep-four"  preload="auto">
+				<source src="audio/soft.mp3"></source>
+				<source src="audio/beep.ogg"></source>
+				
+			</audio>
+				
+			</audio>
+            <script>
+                var beepFour = $("#beep-four")[0];
+                $("#nav-four a").mouseenter(function () {
+                    beepFour.play();
+                });</script></li>
                 
                 </ul>
                 
@@ -794,6 +845,19 @@
                     Text='<%# Eval("Age") %>' />
                     
                     </li>
+                    <li id="nav-five"><span><a href="#">Wispy's Meow</a></span>
+		   	        <audio id="beep-five"  preload="auto">
+				<source src="audio/softy.mp3"></source>
+				<source src="audio/beep.ogg"></source>
+				
+			</audio>
+				
+			</audio>
+            <script>
+                var beepFive = $("#beep-five")[0];
+                $("#nav-five a").mouseenter(function () {
+                    beepFive.play();
+                });</script></li>
                 
                 </ul>
                 
@@ -838,7 +902,7 @@
         </SelectedItemTemplate>
     </asp:ListView>
                         <h3>Description</h3>
-						<p>A tall, balding cat who enjoys making formal complaints about the others. Wispy is the oldest cat. He attempts to hide his wispyness beneath a flamboyant toupee. </p>
+						<p>A tall, balding cat who enjoys making formal complaints about the others. Wispy is the oldest cat. He attempts to hide his wispyness beneath a flamboyant toupee. He wisps through life like a summer breeze. </p>
 				    </div>
                     <div class="content-6">
 						<asp:AccessDataSource ID="AccessDataSource7" runat="server" 
@@ -954,6 +1018,19 @@
                     Text='<%# Eval("Age") %>' />
                     
                     </li>
+                     <li id="nav-six"><span><a href="#">Wooly Maurice's Meow</a></span>
+		   	        <audio id="beep-six"  preload="auto">
+				<source src="audio/cat1.wav"></source>
+				<source src="audio/beep.ogg"></source>
+				
+			</audio>
+				
+			</audio>
+            <script>
+                var beepSix = $("#beep-six")[0];
+                $("#nav-six a").mouseenter(function () {
+                    beepSix.play();
+                });</script></li>
                 
                 </ul>
                 
@@ -998,7 +1075,7 @@
         </SelectedItemTemplate>
     </asp:ListView>
                         <h3>Description</h3>
-						<p>Maurice has an idea for a new e-commerce web application. What is it about, Maurice? "Wool." So... a clothing store? Argyle sweaters? "No, Just wool" Maurice replies as his fat sweaty ass rests on your hand. He leans in closer and you can smell a ploughmans sandwich on his breath. He grips his reusable Aldi bag tighter and wheezes. "Just wool." </p>
+						<p>Maurice has an idea for a new e-commerce web application. What is it about, Maurice? "Wool." So... a clothing store? Argyle sweaters? "No, Just wool" Maurice replies as he plonks himself down, sitting on top of your hand. He leans in closer and you can smell a ploughmans sandwich on his breath. He grips his reusable Aldi bag tighter and wheezes. "Just wool." </p>
 				    </div>
                     <div class="content-7">
 						<asp:AccessDataSource ID="AccessDataSource8" runat="server" 
@@ -1114,6 +1191,19 @@
                     Text='<%# Eval("Age") %>' />
                     
                     </li>
+                    <li id="nav-seven"><span><a href="#">Sandra Cat's Meow</a></span>
+		   	        <audio id="beep-seven"  preload="auto">
+				<source src="audio/softy.mp3"></source>
+				<source src="audio/beep.ogg"></source>
+				
+			</audio>
+				
+			
+            <script>
+                var beepSeven = $("#beep-seven")[0];
+                $("#nav-seven a").mouseenter(function () {
+                    beepSeven.play();
+                });</script></li>
                 
                 </ul>
                 
@@ -1274,6 +1364,19 @@
                     Text='<%# Eval("Age") %>' />
                     
                     </li>
+                    <li id="nav-eight"><span><a href="#">Mr Fluffy's Meow</a></span>
+		   	        <audio id="beep-eight"  preload="auto">
+				<source src="audio/catmeow.wav"></source>
+				<source src="audio/beep.ogg"></source>
+				
+			
+				
+			</audio>
+            <script>
+                var beepEight = $("#beep-eight")[0];
+                $("#nav-eight a").mouseenter(function () {
+                    beepEight.play();
+                });</script></li>
                 
                 </ul>
                 
@@ -1318,7 +1421,7 @@
         </SelectedItemTemplate>
     </asp:ListView>
                         <h3>Description</h3>
-						<p>Fluffy est un chat francais.  Il est le plus choux de tout les chats.  Il n'est pas homo il est tout simplement europeen! Il aime des bebe guinness.  Il n'aime pas les chats stupides mais ce ne le fache pas parceque Fluffy est un chat tres calme aussi.  C'est un descendant des roix chats de versailles</p>
+						<p>Fluffy est un chat francais.  Il est le plus choux de tout les chats.  Il n'est pas homme il est tout simplement europeen! Il aime des bebe guinness.  Il n'aime pas les chats stupides mais ce ne le fache pas parceque Fluffy est un chat tres calme aussi.  C'est un descendant des roix chats de versailles</p>
 				    </div>
 		        </div>
 			</section>

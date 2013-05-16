@@ -134,7 +134,7 @@
 		</div>
 
 		<div id="lever">
-			<img class="lever" id="leverpic" alt="Fruit machine lever" src="images/lever1.jpg" onclick="startgame(this);" />
+			<img class="lever" id="leverpic" alt="Fruit machine lever" src="images/navs/lever1.jpg" onclick="startgame(this);" />
 
 		</div>	
 
